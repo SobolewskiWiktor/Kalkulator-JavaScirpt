@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+     <div id="container">
+         <div id="title">Kalkulator w JS</div>
+         <div id="Calculator">
+             <div id="result">
+              <h1>0</h1>
+             </div>
+             <div id="buttons">
+                 <div id="numbers">
+                     <button class="number" value="1">1</button>
+                     <button class="number" value="2">2</button>
+                     <button class="number" value="3">3</button>
+                     <button class="number" value="4">4</button>
+                     <button class="number" value="5">5</button>
+                     <button class="number" value="6">6</button>
+                     <button class="number" value="7">7</button>
+                     <button class="number" value="8">8</button>
+                     <button class="number" value="9">9</button>
+                     <button class="number_zero" value="0">0</button>
+                 </div>
+                 <div id="options">
+                      <div class="option">AC</div>
+                      <div class="option">+</div>
+                      <div class="option">-</div>
+                      <div class="option">*</div>
+                      <div class="option">/</div>
+                      <div class="option">=</div>
+                 </div>
+             </div>
+         </div>
+     </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
