@@ -1,1 +1,1 @@
-# Repozytorium poświęcone projektom wykonanym podczas nauki JS
+# Kalkulator wykonany w JavaScript
